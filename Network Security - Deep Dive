@@ -71,15 +71,57 @@ DEFENSES: TCP intercept feature
                     A DHCP server on the network receives the message and assigns the device an available IP address and other configuration parameters. 
                     The DHCP server maintains a pool of available IP addresses and leases them to devices for a specified period of time, called the lease time. When a device's lease expires, it can request a new lease from the DHCP server. If the DHCP server is unavailable, 
                     devices can continue to use their assigned IP addresses and other configuration parameters for a period of time, called the grace period.
-    DHCP Starvation
-    DHCP Spoofing
+                    
+    DHCP Starvation  --- SecurityViolation(Count)
+    DHCP Spoofing  --- arp inspection 
     
     DORA
         discover
         offer
         request
         ackn
-    
+        
+     VLAN Hopping Attack (attacker pretends to be an Ethernet switch (Yersinia) and sets up a trunk carrying traffic for all VLANs
+        switch spoofing
+        double tagging
+        
+     Social Engineering Attacks
+        Phishing
+        Tailgating (Piggybacking)
+        Shoulder Surfing
+        
+      Malware
+      DNS Poisoning
+      Ransomware (wannacry)
+      Spoofing                                  --- reverse ...
+      Deauthentication
+      Brute Force
+      
+      Mitigation:
+        Signature Management
+        Device Hardening
+        Change the Native VLAN
+        Define Privileged User Account
+        File integrity monitoring
+        Role Separation
+        Honeypot
+        Penetration Testing
+        Network Segmentation
+        Defence in Depth
+        Zero Trust
+        Least Preveledge
+        AAA -authentication/authorization/accounting 
+        
+        authentication:
+                multi-factor authentication
+                ieee 802.1x
+                network access control
+                MAC filtering
+                captive portal
+                
+                Kerberos (cerberos)
+        
+       
                                   
         
 
