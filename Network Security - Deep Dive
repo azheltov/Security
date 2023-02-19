@@ -53,7 +53,33 @@ DEFENSES: TCP intercept feature
                                                       
                                                       (IR)
                                                       Incident Response Plan
-                                  
+                                                      
+                                                      
+ On-Path (ManInTheMiddle) Attack
+    MAC Flooding (switch's mac address table fills to capacity)        macof
+    ARP poisoning (attacker's MAC is the victim's default gateway)
+                    ARP stands for Address Resolution Protocol. It is a protocol used in computer 
+                    networking to map a network address (such as an IP address)
+                    to a physical address (such as a Media Access Control (MAC) address).
+    Rogue DHCP (attackers DHCP server tells the victim that the IP address of the default gateway is the attacker's IP address)    Yersinia
+                    DHCP DHCP stands for Dynamic Host Configuration Protocol. It is a network management protocol used to automatically 
+                    assign IP addresses and other network configuration parameters, such as subnet mask, default gateway, 
+                    and DNS server addresses, to devices on a network. DHCP eliminates the need for network administrators 
+                    to manually assign IP addresses to devices, which can be a time-consuming and error-prone process.
+
+                    When a device connects to a network that uses DHCP, it sends a broadcast message requesting network configuration information. 
+                    A DHCP server on the network receives the message and assigns the device an available IP address and other configuration parameters. 
+                    The DHCP server maintains a pool of available IP addresses and leases them to devices for a specified period of time, called the lease time. When a device's lease expires, it can request a new lease from the DHCP server. If the DHCP server is unavailable, 
+                    devices can continue to use their assigned IP addresses and other configuration parameters for a period of time, called the grace period.
+    DHCP Starvation
+    DHCP Spoofing
+    
+    DORA
+        discover
+        offer
+        request
+        ackn
+    
                                   
         
 
