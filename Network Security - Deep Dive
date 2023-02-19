@@ -1,0 +1,59 @@
+https://www.youtube.com/watch?v=tNWj5uGIqok
+
+Confidentiality
+Integrity
+Availability
+
+*  Security Appliances
+    - Firewall (3)
+        Host-Based F
+        Packet Filtering F
+        Statful F
+        NGFW / Layer 7 F
+        DMZ
+        IDS sensor (inspects traffic)
+*  ACLs Access Control Lists     (permits, match traffic, inbound/outbound, top-down processed, "deny any")
+        
+*  Encryption
+        - Symmetric
+              DES, 3DES, AES
+        - Asymmetric
+              RSA   (VerySign Trust Network - Digital Sertificate)
+              
+              
+              
+              FOR INTEGRITY - Hashing Algorithms
+                MD5 (hash msg digest)
+                SHA-1
+                    HMAC
+                    
+              overlapping layers of network security...
+              
+                                 
+              FOR AVAILABILITY - The Five Nines 
+                                  99.999 % golded standard
+                                  
+ DoS Attacks                 1 hacker
+ Denial of Service
+                "ping of death"
+                
+DDoS Attacks
+Distributed Denial of Service
+                "zombies"
+DEFENSES: TCP intercept feature
+          syn
+          syn-ack
+          ack
+       INTERCEPT MODE
+       WATCH MODE
+       IPS SENSOR (has signatures of famous attacks)
+       
+       Zero-Day Attack Detection (brand new attack) - MachineLearning algorithms: Cisco Firepower 9300 Series secure firewalls
+                                                      Over-Provision Bandwidth
+                                                      
+                                                      (IR)
+                                                      Incident Response Plan
+                                  
+                                  
+        
+
