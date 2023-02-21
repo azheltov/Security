@@ -120,7 +120,49 @@ DEFENSES: TCP intercept feature
                 captive portal
                 
                 Kerberos (cerberos)
-        
+                
+                
+              LDAP Server for sinc
+              
+       NETWORK       
+          Discovery:    
+            Passive Footprinting
+            Active Footprinting
+            MAC address spoofing
+            Rogue Access Point
+            Evil Twing (same SSID as XYZcorp)
+            Deauthentication
+            Session Hijacking
+            Misconfigured or Weakly Configure AP
+            
+          Bluetooth Hacking
+            2.4 GHz band
+            Breates a prsonal area network (pan)
+                earbuds
+                gaming consoles 
+                speakers
+                mobile phones
+                
+            Bluejacking
+            Bluesnafing
+            BlueSmacking
+            Bluebagging
+            BlePrinting
+            
+            
+          Wireless Security Goals
+                authentication
+                encryption
+             WEP wired equivalent privacy  - RC4 encryption - weak
+                
+                key distribution
+                    pre-shared key (PSK) mode
+                    enterprise mode (RADIUS server)
+                    
+                    TKIP temp key integrity protocol 48bits
+                    AES
+                
+            
        
                                   
         
