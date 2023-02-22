@@ -162,8 +162,86 @@ DEFENSES: TCP intercept feature
                     TKIP temp key integrity protocol 48bits
                     AES
                 
+            TKIP
+WPA (for wi-fi       )
+WPA2 (for wi-fi     - supports AES)  KRACK vulnerability
+WPA3 (192-bit key AES, PMFs protection)
+DPP (device provisioning protocol)
+
+guest network
+vs
+private (corp) network
+
+MAC filtering
+
+Geofencing
+
+Don't use SSIDs (default ones)
+
+Wireless IPS
+    evil twin AP detection
+    Wireless attack detection DoS or MITM
+    Data Analysis
+    
+    
+   SESSION HIJACKING
+        Man-in-the-Browser
+            session ID
+        Session Fixation
+        Cross-Site Request Forgery (CSRF of XSRF)
+        
+        Network level
+            ICP/IP hijacking
+            Reset Hijacking
+            Blind Hijacking
+            UDP Hijacking (DNS query)
             
-       
+   Countermeasures
+        User Training
+        Secure Session ID
+        Secure Web Servers
+        Use Secure Tranfer Protcol: SFTP, IPsec, SSL, SSH
+        
+  Physical Security: Detection
+        motion detectio
+        asset trackingg tags
+        video
+        tamper detection
+        badges
+        biometrics
+        training
+        access control vestibule (mantrap)
+        Lock
+        Equipment Disposal
+            Erase
+            Sanitaze
+        
+     IoT and Cloud Security
+        change default passwords
+        place IoT devices on their own VLAN
+        
+        CASB - cloud access security broker
+        
+     VPNs
+        GRE Tunnel - not secure
+        IPsec - secure
+            problem: unicast IP packets
+            
+            GRE ove IPsec
+        
+        TWO MODES of communication:
+        
+            tranport mode (original header)
+            tunnel mode (encapsulates entire packet)
+        Authentication and Encryption
+            AH
+            ESP
+        Setup Steps
+            IKE
+            IKE phase 2
+        
+  DMVPN      
+       Multipoint GRE (mBRE)
                                   
         
 
